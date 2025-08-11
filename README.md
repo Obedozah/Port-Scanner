@@ -7,4 +7,6 @@ This program is meant to scan a specific IP address with options to specifiy whi
 # To Use
 
 Simply run the main.py script in terminal.
-Prompts will follow including what IP address you would like to Scan and which ports you would like to see are open or not
+Prompts will follow including what IP address you would like to scan and which ports you would like to see are open or not
+
+averyagustin05@gmail.com
