@@ -1,7 +1,7 @@
 import testSocket
 
-# Input for first port #
 def runManualScanInput(ip):
+    # Input for first port #
     while True:
         _firstPort = input("Please enter the first port you would like to scan:\n")
         try:
@@ -17,10 +17,10 @@ def runManualScanInput(ip):
         _lastPort = input("Please enter the last port you would like to scan:\n")
         try:
             _lastPort = int(_lastPort)
-            if _firstPort > _lastPort:
-                print("Invalid Range. Must be Equal or Greater than first port")
-            elif not 0 <= _lastPort <= 65535:
+            if not 0 <= _lastPort <= 65535:
                 print("Invalid Range. 0 - 65535")
+            elif _firstPort > _lastPort:
+                print("Invalid Range. Must be Equal or Greater than first port")
             else:
                 break
         except ValueError:

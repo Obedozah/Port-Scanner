@@ -21,7 +21,7 @@ def runUserInput():
                 runCommonScanInput.runCommonScanInput(ip)
                 break
             elif selection == 2:
-                runManualScanInput.runManualInput(ip)
+                runManualScanInput.runManualScanInput(ip)
                 break
             else:
                 print("Invalid Response. (1)/(2)")
