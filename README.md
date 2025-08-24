@@ -2,7 +2,9 @@
 
 This is the initial version of a port scanner Python program.
 
-This program is meant to scan a specific IP address with options to specifiy which port the user would like to scan.
+This program is meant to scan a specific IP address with various options to specify which port the user would like to scan.
+    - Commonly scanned ports
+    - Manually choose your own ports to scan
 
 ## To Use ##
 
