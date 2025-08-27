@@ -16,7 +16,3 @@ Prompts will follow including what IP address you would like to scan and port se
 - Simple I/O with error checking
 - Range of ports
 - Select own ports or select common protocols (IP)
-
-## Contact ##
-
-github: @Obedozah
